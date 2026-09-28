@@ -1,4 +1,11 @@
 package com.avery.nhl.model.nhl
 
-class AnniversaryType {
+enum class AnniversaryType(
+    val displayName: String
+) {
+    ORDER("Ordered"),
+    RECEIVE("Received"),
+    OPEN("Opened"),
+    DOB("Birthday"),
+    MANUFACTURE("Manufactured")
 }

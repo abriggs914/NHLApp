@@ -1,4 +1,6 @@
 package com.avery.nhl.model.nhl
 
-class FrequencyItem {
-}
+data class FrequencyItem(
+    val label: String,
+    val count: Int
+)

@@ -1,4 +1,7 @@
 package com.avery.nhl.model.jersey
 
-class JerseyType {
+enum class JerseyType {
+    ALL,
+    PLAYER,
+    BLANK
 }

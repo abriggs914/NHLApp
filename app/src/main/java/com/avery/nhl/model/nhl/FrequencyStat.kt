@@ -1,4 +1,6 @@
 package com.avery.nhl.model.nhl
 
-class FrequencyStat {
-}
+data class FrequencyStat(
+    val value: String,
+    val count: Int
+)

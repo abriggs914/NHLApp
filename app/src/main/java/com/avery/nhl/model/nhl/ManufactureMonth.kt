@@ -1,4 +1,6 @@
 package com.avery.nhl.model.nhl
 
-class ManufactureMonth {
-}
+data class ManufactureMonth(
+    val month: Int,
+    val year: Int
+)

@@ -1,4 +1,7 @@
 package com.avery.nhl.model.jersey
 
-class ImageFilter {
+enum class ImageFilter {
+    ALL,
+    HAS_IMAGES,
+    NO_IMAGES
 }

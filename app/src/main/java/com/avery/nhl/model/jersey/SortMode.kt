@@ -1,4 +1,6 @@
 package com.avery.nhl.model.jersey
 
-class SortMode {
+enum class SortMode {
+    ORDERED,
+    RANDOM
 }

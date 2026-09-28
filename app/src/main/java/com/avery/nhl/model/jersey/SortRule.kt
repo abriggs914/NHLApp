@@ -1,4 +1,6 @@
 package com.avery.nhl.model.jersey
 
-class SortRule {
-}
+data class SortRule(
+    val field: JerseySort,
+    val ascending: Boolean = true
+)
